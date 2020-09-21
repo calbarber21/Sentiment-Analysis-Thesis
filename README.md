@@ -5,7 +5,7 @@ cleanNYTvader.py - This file takes text files of New York Times articles downloa
 database and convert to text using the pdf2text file also contained in this repository. Using the open source Vader package articles are given a sentiment score
 taken as an average of individual sentence sentiments.
 
-pdf2txt.R - This file simply converts a PDF file to a text file
+convertPdf2txt.R - This file simply converts a PDF file to a text file
 
 prelimAnalysis.R - Given the senteiment of each NYT articles from cleanNYTvader.py this program aggregates scores daily and monthly. Z scores are given to both 
 daily and monthly scores to normalize data. This file also takes consumer sentiment data from the University of Michigan. This data is also normalized with a Z 
